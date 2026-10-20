@@ -1,0 +1,32 @@
+# ── Core Django ──────────────────────────────────
+Django==5.2.17
+djangorestframework==3.18.1
+djangorestframework-simplejwt==5.5.1
+django-filter==26.1
+django-cors-headers==4.9.0
+django-modeltranslation==0.20.6
+python-decouple==3.8
+
+# ── API Docs ─────────────────────────────────────
+drf-spectacular==0.30.0
+PyYAML==6.0.3
+uritemplate==4.2.0
+inflection==0.5.1
+jsonschema==4.26.0
+
+# ── Image / Media ───────────────────────────────
+Pillow==12.3.0
+
+# ── Channels / WebSocket (PythonAnywhere da ixtiyoriy) ──
+# PythonAnywhere da bu paketlar kerak emas, lekin import xatosini
+# oldini olish uchun qoldiramiz
+channels==4.3.2
+daphne==4.2.3
+asgiref==3.12.1
+
+# ── Database (PythonAnywhere MySQL opsiyasi) ────
+# mysqlclient o'rniga PyMySQL ishlating agar MySQL ga o'tsangiz:
+# PyMySQL==1.1.1
+
+# ── HTTP client (test uchun) ─────────────────────
+requests==2.34.2
